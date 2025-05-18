@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Submission and Viewer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.0/dist/cyborg/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .form-container {
+            margin-bottom: 20px;
+        }
+
+        .blog-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+
+        .blog-title {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .read-more {
+            color: blue;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 5px;
+            margin: 5px 0;
+            border: none;
+            cursor: pointer;
+            width: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Blog Post Submission</h2>
+    <div class="form-container">
+        <input type="text" id="title" placeholder="Enter Title" /><br /><br />
+        <input type="text" id="author" placeholder="Enter Author" /><br /><br />
+        <textarea id="content" placeholder="Enter Content"></textarea><br /><br />
+        <button onclick="addBlog()">Submit Blog</button>
+    </div>
+
+    <h2>Blog Posts</h2>
+    <div id="blogContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
