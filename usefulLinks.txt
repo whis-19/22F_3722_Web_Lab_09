@@ -6,3 +6,10 @@ https://www.codewithfaraz.com/article/103/50-html-css-and-javascript-projects-wi
 https://github.com/whis-19/bkl-subject
 https://drive.google.com/file/d/17nDysVsofHVkHNnxSunEvmp_KKe69pM1/view?usp=sharing
 https://github.com/hashimaliii/Exercise-Tracker-Web-Engineering
+https://github.com/Hasnain-rdj/skillswap
+
+Dr. Qamar Links:
+https://github.com/zaqamar
+
+Tailwind
+npm install tailwind@3.4.3
